@@ -5,7 +5,7 @@
         "../sass/style.scss",
         "../sass/base/_variables.scss",
         "../sass/blocks/_promo.scss",
-        "../sass/blocks/header.scss"
+        "../sass/blocks/_header.scss"
     ],
     "names": [],
     "file": "style.min.css"
