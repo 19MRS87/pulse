@@ -1,0 +1,155 @@
+@media (max-width: 991px) {
+  .header {
+    justify-content: space-around;
+  }
+  .promo {
+    &__wrapper {
+      margin-right: 25px;
+    }
+  }
+  .avantage {
+    &__header {
+      font-size: 28px;
+    }
+    &__descr {
+      font-size: 12px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    &__contacts {
+      display: none;
+    }
+    &__logo {
+      width: 230px;
+    }
+    &__official {
+      span {
+        font-size: 16px;
+      }
+    }
+  }
+  .promo {
+    padding-bottom: 40px;
+    &__wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 0;
+      margin-top: 80px;
+    }
+    &__header {
+      font-size: 38px;
+    }
+    &__subheader {
+      font-size: 20px;
+    }
+  }
+  .avantage {
+    padding: 50px 0 35px 0;
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__subheader {
+      margin-top: 15px;
+    }
+    &__descr {
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+  }
+  .button {
+    &_main {
+      margin-top: 120px;
+    }
+  }
+}
+@media (max-width: 576px) {
+  .header {
+    &__official {
+      display: none;
+    }
+  }
+  .promo {
+    padding-top: 30px;
+    &__header {
+      font-size: 25px;
+    }
+    &__subheader {
+      font-size: 18px;
+    }
+    &__icons {
+      width: 350px;
+    }
+    &__link {
+      font-size: 13px;
+    }
+  }
+  .button {
+    &_main {
+      margin-top: 120px;
+      width: 250px;
+      font-size: 15px;
+    }
+  }
+  .avantage {
+    &__header {
+      font-size: 25px;
+    }
+  }
+}
+@media (max-width: 375px) {
+  .promo {
+    padding-top: 30px;
+    &__wrapper {
+      margin-top: 90px;
+    }
+    &__header {
+      font-size: 21px;
+      line-height: 10px;
+    }
+    &__subheader {
+      font-size: 12px;
+      line-height: 10px;
+    }
+    &__icons {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__icon {
+      margin-bottom: 35px;
+    }
+    &__link {
+      font-size: 13px;
+    }
+  }
+  .button {
+    &_main {
+      margin-top: 90px;
+      width: 250px;
+      font-size: 15px;
+    }
+  }
+  .avantage {
+    &__header {
+      font-size: 25px;
+    }
+  }
+}
+@media (max-width: 320px) {
+  .avantage {
+    &__header {
+      font-size: 22px;
+    }
+  }
+  .promo {
+    &__wrapper {
+      margin-top: 90px;
+    }
+  }
+}
