@@ -7,7 +7,10 @@
         "../sass/base/_media.scss",
         "../sass/blocks/_promo.scss",
         "../sass/blocks/_header.scss",
-        "../sass/blocks/_avantage.scss"
+        "../sass/blocks/_avantage.scss",
+        "../sass/blocks/_consultation.scss",
+        "../sass/blocks/_title.scss",
+        "../sass/blocks/_carousel.scss"
 
     ],
     "names": [],
