@@ -35,6 +35,12 @@
       }
     }
   }
+  .carousel {
+    padding: 81px 0;
+    &__inner {
+      width: 700px;
+    }
+  }
 }
 
 @media (max-width: 767px) {
@@ -145,6 +151,11 @@
       font-size: 14px;
     }
   }
+  .carousel {
+    &__inner {
+      width: 500px;
+    }
+  }
 }
 @media (max-width: 375px) {
   .promo {
@@ -183,6 +194,11 @@
   .avantage {
     &__header {
       font-size: 25px;
+    }
+  }
+  .carousel {
+    &__inner {
+      width: 250px;
     }
   }
 }
