@@ -10,7 +10,8 @@
         "../sass/blocks/_avantage.scss",
         "../sass/blocks/_consultation.scss",
         "../sass/blocks/_title.scss",
-        "../sass/blocks/_carousel.scss"
+        "../sass/blocks/_carousel.scss",
+        "../sass/blocks/_catalog.scss"
 
     ],
     "names": [],

@@ -41,6 +41,11 @@
       width: 700px;
     }
   }
+  .catalog {
+    &__content {
+      justify-content: space-around;
+    }
+  }
 }
 
 @media (max-width: 767px) {
@@ -95,6 +100,12 @@
   .title {
     text-align: center;
     font-size: 22px;
+  }
+  .catalog {
+    &__tab {
+      width: 150px;
+      font-size: 16px;
+    }
   }
 }
 @media (max-width: 576px) {
@@ -157,6 +168,20 @@
     }
   }
 }
+@media (max-width: 425px) {
+  .catalog {
+    &__tab {
+      width: 115px;
+      font-size: 12px;
+    }
+  }
+  .carousel {
+    &__inner {
+      width: 320px;
+    }
+  }
+}
+
 @media (max-width: 375px) {
   .promo {
     padding-top: 30px;
