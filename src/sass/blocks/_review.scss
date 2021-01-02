@@ -1,0 +1,46 @@
+.review {
+  padding-bottom: 71px;
+  &__block {
+    margin-top: 70px;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: flex-start;
+  }
+  &__img {
+    width: 169px;
+    height: 169px;
+    img {
+      width: 100%;
+    }
+  }
+  &__item {
+    margin-left: 62px;
+  }
+  &__nameClient {
+    font-size: 18px;
+    font-weight: 900;
+    text-align: left;
+    color: #0d0d0d;
+  }
+  span {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    color: #646464;
+    margin-top: 12px;
+  }
+  &__descr {
+    font-size: 16px;
+    font-weight: 300;
+    color: #0d0d0d;
+    margin-top: 19px;
+  }
+  hr {
+    margin: 50px 0;
+    border-bottom: none;
+    background-color: #f6f6f6;
+    opacity: 0.2;
+  }
+}
