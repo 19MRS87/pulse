@@ -108,6 +108,27 @@
     }
   }
 }
+@media (max-width: 661px) {
+  .carousel {
+    &__inner {
+      width: 350px;
+      img {
+        width: 60%;
+      }
+    }
+  }
+  .review {
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__foto {
+      img {
+        max-width: 80%;
+      }
+    }
+  }
+}
 @media (max-width: 576px) {
   .header {
     &__official {
@@ -168,16 +189,33 @@
     }
   }
 }
+
 @media (max-width: 425px) {
   .catalog {
-    &__tab {
-      width: 115px;
-      font-size: 12px;
+    padding-bottom: 80px;
+    &__tabs {
+      flex-wrap: wrap;
     }
   }
   .carousel {
     &__inner {
       width: 320px;
+    }
+  }
+  .review {
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__foto {
+      img {
+        max-width: 80%;
+      }
+      &__item {
+        margin-top: 20px;
+        margin-left: 23px;
+        text-align: left;
+      }
     }
   }
 }
@@ -226,16 +264,75 @@
       width: 250px;
     }
   }
-}
-@media (max-width: 320px) {
-  .avantage {
-    &__header {
-      font-size: 22px;
+  .review {
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__item {
+      margin-top: 20px;
+      margin-left: 23px;
+      text-align: left;
+    }
+
+    &__foto {
+      img {
+        max-width: 80%;
+      }
+    }
+    .catalog {
+      padding-bottom: 80px;
+      &__tabs {
+        flex-wrap: wrap;
+      }
     }
   }
-  .promo {
-    &__wrapper {
-      margin-top: 90px;
+  @media (max-width: 320px) {
+    .avantage {
+      &__header {
+        font-size: 22px;
+      }
+    }
+    .promo {
+      &__wrapper {
+        margin-top: 90px;
+      }
+    }
+    .catalog {
+      padding-bottom: 80px;
+      &__tabs {
+        flex-wrap: wrap;
+      }
+      &-item {
+        width: 250px;
+        &__price {
+          font-size: 14px;
+        }
+        &__descr {
+          font-size: 18px;
+        }
+      }
+      .title {
+        &_black {
+          font-size: 18px;
+        }
+      }
+    }
+    .button {
+      &_mini {
+        width: 120px;
+      }
+    }
+    .review {
+      &__wrapper {
+        flex-direction: column;
+        align-items: center;
+      }
+      &__item {
+        margin-top: 20px;
+        margin-left: 23px;
+        text-align: left;
+      }
     }
   }
 }
