@@ -12,7 +12,10 @@
         "../sass/blocks/_title.scss",
         "../sass/blocks/_carousel.scss",
         "../sass/blocks/_catalog.scss",
-        "../sass/blocks/_review.scss"
+        "../sass/blocks/_review.scss",
+        "../sass/blocks/_footer.scss",
+        "../sass/blocks/_modal.scss"
+
 
     ],
     "names": [],
