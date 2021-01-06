@@ -10,6 +10,18 @@
   font-style: normal;
   font-display: block;
 }
+/* @font-face {
+  font-family: "icomoon";
+  src: url("../icons/up/icomoon.eot?ofvnhw");
+  src: url("../icons/up/icomoon.eot?ofvnhw#iefix") format("embedded-opentype"),
+    url("../icons/up/icomoon.ttf?ofvnhw") format("truetype"),
+    url("../icons/up/icomoon.woff?ofvnhw") format("woff"),
+    url("../icons/up/icomoon.svg?ofvnhw#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+  
+} */
 
 [class^="icon-"],
 [class*=" icon-"] {
@@ -35,4 +47,7 @@
 }
 .icon-facebook-f-brands:before {
   content: "\e903";
+}
+.icon-chevron-circle-up-solid:before {
+  content: "\e900";
 }

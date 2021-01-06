@@ -14,7 +14,8 @@
         "../sass/blocks/_catalog.scss",
         "../sass/blocks/_review.scss",
         "../sass/blocks/_footer.scss",
-        "../sass/blocks/_modal.scss"
+        "../sass/blocks/_modal.scss",
+         "../sass/blocks/_pageup.scss"
 
 
     ],
